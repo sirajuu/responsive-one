@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function(){
+        $('#icon').click(function(){
+            $('ul').toggleClass('show');
+        });
+    });
+  </script>
+</head>
+<body>
+<div id="first-page">
+    <div>
+    <nav>
+      <label class="logo">port<span>folio</span></label>
+    
+        <ul>
+            <li><a class="active" href="#"> home</a></li>
+            <li><a href="#fi">about us</a> </li>
+            <li><a href="#fg">skill </a> </li>
+            <li><a href="#fc">contact </a> </li>
+        </ul>
+        <label id="icon">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+</div>
+<div  class="name">
+    <h4>Hello, My Name is </h4>
+    <h1>SIRAJUDHEEN<span> U</span></h1>
+    <h3>Iam a Web Developer</h3>
+</div>
+</div>
+<!--about section-->
+<section id="fi" class="about">
+    <div class="main">
+        <img src="./siraju.jpg" alt="no img">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <h5>Developer</h5>
+            <p>I am a full stack web developer. I can provided clean code and perfect design. I also make the website interactive with web design</p>
+        </div>
+        
+
+    </div>
+
+</section>
+<!--skill section-->
+<section id="fg" class="skill">
+   <div class="main-2">
+    <h2>Skill</h2>
+     <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>BOOTSRAP</li>
+        <li>JAVA SCRIPT</li>
+        <li>ANGULAR</li>
+        <li>MONGO DB</li>
+        <li>NODE JS</li>
+        <li>REACT</li>
+     </ul>
+   </div>
+</section>
+
+<!--contact section-->
+<section id="fc">
+  
+        <h2>Contact Me</h2>
+
+    <div class="footer">
+        <a href="https://www.instagram.com/__sira_j/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/sirajuu"><i class="fa-brands fa-github"></i></a>
+    </div>
+   
+
+</section>
+</body>
+</html>

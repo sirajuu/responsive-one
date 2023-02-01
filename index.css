@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+
+}
+#first-page{
+    background-color:black;
+    height: 100vh;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+
+}
+
+
+span{
+    color: #f9004d;
+}
+
+
+nav{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}    
+ nav ul li{
+        display: inline;
+        margin:20px 50px;
+        font-weight: bold;
+        text-transform: capitalize;
+}
+ nav ul li a{
+        text-decoration: none;
+        color:white
+}
+ul{
+    margin-right: 30px;
+
+}
+nav ul li a:hover{
+    color: #f9004d;
+}
+
+.name{
+    color: white;
+    margin-left: 150px;
+    margin-top:200px ;
+}
+
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 55px;
+    font-style: italic;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+
+/* about*/
+
+
+img{
+    height: 400px;
+}
+
+
+
+.about{
+    width: 100%;
+    padding:100px 0px;
+    background-color: #191919;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:#f9004d;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 5px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color:white;
+    letter-spacing: 2px;
+    line-height: 28px;
+    font-size: 20px;
+    padding-bottom: 45px;
+}
+
+/*skill*/
+
+
+.main-2 h2{
+    margin-left: 14px;
+    color: #f9004d;
+}
+
+
+.skill{
+    width: 100%;
+    background-color: #191919;
+    padding: 60px 0px;
+
+}
+.main-2{
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    line-height: 50px;
+    font-weight:bold;
+    font-size: 30px;
+}
+ul{
+    list-style-type: none;
+}
+
+/* contact */
+
+.contact{
+    width: 100%;
+    padding: 400px ;
+    background-color: #191919;
+}
+
+section h2{
+    color: #f9004d;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a{
+    width: 45px;
+    height: 45px;  
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background:#0e0c0d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+}
+
+.footer a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+@media (max-width:942px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font: size 17px; ;
+    }
+}
+
+@media (max-width:942px){
+nav #icon{
+    display: block;
+}
+nav ul{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 50px;
+    left: -120%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+
+}
+nav ul li a{
+    font-size: 20px;
+
+}
+a.active,a:hover{
+    border:none;
+    color: #3498db;
+}
+nav ul.show{
+    left: 0;
+
+}
+}
+@media(max-width:985px){
+    nav ul li{
+        margin-right: 10px;
+    }
+}
+@media (max-width:592px){
+    .name h1{
+        font-size: 45px;
+    }
+}
+@media (max-width:546px){
+    .about-text h2{
+        font-size: 30px;
+    }
+}
+@media (max-width:513px){
+    .name h1{
+        font-size: 35px;
+    }
+    .about-text h2{
+        font-size: 25px;
+    }
+    .about-text h5{
+        font-size:  20px; 
+        margin-left: 10px;
+    }
+    .about-text p{
+        font-size: small;
+        margin-left: 10px;
+    }
+    img{
+        height: 300px;
+    }
+
+}
+@media (max-width:942px){
+    .name{
+        margin-left:80px;
+    }
+    img{
+        height: 250px;
+        width: 230px;
+    }
+}
+
+
